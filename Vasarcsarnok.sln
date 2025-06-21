@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vasarcsarnok", "Vasarcsarnok\Vasarcsarnok.csproj", "{47594759-F0CB-45C7-A907-0D818F00AE30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasarcsarnokTest", "VasarcsarnokTest\VasarcsarnokTest.csproj", "{E469BA8F-CF7E-4AA8-87B4-10B5054EAD3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47594759-F0CB-45C7-A907-0D818F00AE30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47594759-F0CB-45C7-A907-0D818F00AE30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47594759-F0CB-45C7-A907-0D818F00AE30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47594759-F0CB-45C7-A907-0D818F00AE30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E469BA8F-CF7E-4AA8-87B4-10B5054EAD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E469BA8F-CF7E-4AA8-87B4-10B5054EAD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E469BA8F-CF7E-4AA8-87B4-10B5054EAD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E469BA8F-CF7E-4AA8-87B4-10B5054EAD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BFEAE4F-60AA-4434-8B14-2B8DFDEA8951}
+	EndGlobalSection
+EndGlobal
