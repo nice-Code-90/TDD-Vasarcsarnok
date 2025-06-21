@@ -13,5 +13,14 @@ namespace VasarcsarnokTest
             double actual = target.GetAlmaAr(1);
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void TestOtKilo()
+        {
+            Vasarcsarnok target = new Vasarcsarnok(200);
+            double expected = 900;
+            double actual = target.GetAlmaAr(5);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
