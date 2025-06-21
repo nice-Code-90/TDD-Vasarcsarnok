@@ -1,19 +1,5 @@
 ﻿namespace VasarcsarnokApp
 {
-    public class TulKicsiException : Exception
-    {
-        public TulKicsiException(string message) : base(message)
-        {
-        }
-    }
-
-    public class TulNagyException : Exception
-    {
-        public TulNagyException(string message) : base(message)
-        {
-        }
-    }
-
     public class Vasarcsarnok
     {
         private readonly double unitPrice;
