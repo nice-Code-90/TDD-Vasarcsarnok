@@ -3,7 +3,7 @@
 namespace VasarcsarnokTest
 {
     [TestClass]
-    public class UnitTest1
+    public class VasarcsarnokTeszt
     {
         [TestMethod]
         public void TestEgyKilo()
@@ -37,6 +37,13 @@ namespace VasarcsarnokTest
         {
             Vasarcsarnok target = new Vasarcsarnok(200);
             Assert.ThrowsException<TulKicsiException>(() => target.GetAlmaAr(-1));
+        }
+
+        [TestMethod]
+        public void TestTulNagy()
+        {
+            Vasarcsarnok target = new Vasarcsarnok(200);
+            Assert.ThrowsException<TulNagyException>(() => target.GetAlmaAr(101));
         }
     }
 }
