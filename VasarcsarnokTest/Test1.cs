@@ -31,5 +31,12 @@ namespace VasarcsarnokTest
             double actual = target.GetAlmaAr(8);
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void TestTulKicsi()
+        {
+            Vasarcsarnok target = new Vasarcsarnok(200);
+            Assert.ThrowsException<TulKicsiException>(() => target.GetAlmaAr(-1));
+        }
     }
 }
